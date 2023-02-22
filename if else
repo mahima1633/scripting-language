@@ -1,0 +1,12 @@
+
+
+print "Enter number: ";
+num = gets.chomp.to_i;  
+
+if(num%2 == 0)
+    print ("Number is EVEN");
+
+
+else
+    print ("Number is ODD");
+end
